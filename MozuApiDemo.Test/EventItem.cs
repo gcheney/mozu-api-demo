@@ -1,8 +1,8 @@
 using System; 
 
-namespace MozuApiDemoTests
+namespace MozuApiDemo.Test
 {
-  public class EventItem
+    public class EventItem
     {
         public string Id { get; set; }
         public string EventId { get; set; }
@@ -26,4 +26,4 @@ namespace MozuApiDemoTests
         Pending,
         Failed
     }
-  }
+}
