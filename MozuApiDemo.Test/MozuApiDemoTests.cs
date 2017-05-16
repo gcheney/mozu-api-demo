@@ -17,10 +17,10 @@ using Mozu.Api.ToolKit.Handlers;
 using Newtonsoft.Json.Linq;
 using Mozu.Api.Resources.Commerce.Settings;
 
-namespace MozuDataConnector.Test
+namespace MozuApiDemoTests.Test
 {
     [TestClass]
-    public class MozuDataConnectorTests
+    public class MozuApiDemoTests
     {
         private IApiContext _apiContext;
         private IAppSetting _appSetting;
@@ -88,8 +88,8 @@ namespace MozuDataConnector.Test
         {
             var eventItem = new EventItem
             {
-                EntityId = "123",
-                EventId = "abc",
+                EntityId = "567",
+                EventId = "def",
                 Id = "PK123",
                 Topic = "order.opened",
                 QueuedDateTime = DateTime.Now,
